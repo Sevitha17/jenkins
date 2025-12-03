@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Code') {
             steps {
-                git branch: 'main', url: 'http://51.20.127.149:8080/github-webhook/'
+                git branch: 'main', url: 'https://github.com/Sevitha17/jenkins.git'
             }
         }
 
